@@ -12,7 +12,8 @@ module.exports = function yandexMetrika(options) {
       (options.useCDN
         ? 'https://cdn.jsdelivr.net/npm/yandex-metrica-watch'
         : 'https://mc.yandex.ru/metrika') + '/watch.js',
-    rel: 'preload'
+    rel: 'preload',
+    as: 'script'
   });
 
   // Add yandex metrika script to head
