@@ -20,14 +20,14 @@ You can set environment variable `NODE_ENV` to `production` for testing in dev m
 
 ## Setup
 
-- Add `@nuxtjs/yandex-metrika` dependency using yarn or npm to your project
-- Add `@nuxtjs/yandex-metrika` to `modules` section of `nuxt.config.js`
+- Add `@naumstory/nuxtjs-yandex-metrika` dependency using yarn or npm to your project
+- Add `@naumstory/nuxtjs-yandex-metrika` to `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     [
-      '@nuxtjs/yandex-metrika',
+      '@naumstory/nuxtjs-yandex-metrika',
       {
         id: 'XXXXXX',
         webvisor: true
