@@ -1,0 +1,22 @@
+{
+  "name": "@naumstory/nuxtjs-yandex-metrika",
+  "version": "1.0.0",
+  "description": "Улучшенная версия плагина с async и preload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naumstory/nuxtjs-yandex-metrika.git"
+  },
+  "keywords": [
+    "nuxtjs"
+  ],
+  "author": "Dmitry Naumenkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naumstory/nuxtjs-yandex-metrika/issues"
+  },
+  "homepage": "https://naumstory.ru"
+}
