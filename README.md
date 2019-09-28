@@ -1,7 +1,7 @@
 # Yandex Metrika
 
-[![npm](https://img.shields.io/npm/dt/@nuxtjs/yandex-metrika.svg?style=flat-square)](https://www.npmjs.com/package/@naumstory/nuxtjs-yandex-metrika)
-[![npm (scoped with tag)](https://img.shields.io/npm/v/@nuxtjs/yandex-metrika/latest.svg?style=flat-square)](https://www.npmjs.com/package/@naumstory/nuxtjs-yandex-metrika)
+[![npm](https://img.shields.io/npm/dt/@naumstory/nuxtjs-yandex-metrika.svg?style=flat-square)](https://www.npmjs.com/package/@naumstory/nuxtjs-yandex-metrika)
+[![npm (scoped with tag)](https://img.shields.io/npm/v/@naumstory/nuxtjs-yandex-metrika/latest.svg?style=flat-square)](https://www.npmjs.com/package/@naumstory/nuxtjs-yandex-metrika)
 
 ## Апгрейд
 
