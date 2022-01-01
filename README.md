@@ -9,19 +9,28 @@
 
 Async был прописан, но без указания значения, а таким образом, при генерации проекта, скрипт не подхватывал атрибут async, считая его пустым. Я поправил этот момент тем, что добавил значение true.
 
-Так же я добавил важный атрибут rel со значением preload.
+Так же был добавлен важный атрибут rel со значением preload.
 
-> Add Yandex Metrika to your nuxt.js application.
+> Добавьте Яндекс Метрику в ваше приложение nuxt.js
 
-This plugins automatically sends first page and route change events to yandex metrika.
+Этот плагин автоматически отправляет события первой страницы и изменения маршрута в Яндекс Метрику.
 
-**Note:** yandex metrika is not enabled in dev mode.
-You can set environment variable `NODE_ENV` to `production` for testing in dev mode.
+**Примечание:** яндекс метрика не включена в режиме dev.
+Вы можете установить переменную окружения `NODE_ENV` на `production` для тестирования в режиме dev.
 
-## Setup
+## Установка и настройка
 
-- Add `@naumstory/nuxtjs-yandex-metrika` dependency using yarn or npm to your project
-- Add `@naumstory/nuxtjs-yandex-metrika` to `modules` section of `nuxt.config.js`
+- Добавьте модуль `@naumstory/nuxtjs-yandex-metrika` в свой проект
+
+```js
+npm i @naumstory/nuxtjs-yandex-metrika
+
+// or
+
+yarn add @naumstory/nuxtjs-yandex-metrika
+```
+
+- Добавьте `@naumstory/nuxtjs-yandex-metrika` в массив `modules` в конфиге nuxt.js `nuxt.config.js`
 
 ```js
 {
@@ -41,16 +50,16 @@ You can set environment variable `NODE_ENV` to `production` for testing in dev m
 }
 ```
 
-## Options
+## Опции
 
-For more information:
+Дополнительная информация:
 
-- [Documetation for Ya.Metrika](https://yandex.com/support/metrica/code/counter-initialize.xml)
-- [hit method](https://yandex.com/support/metrica/objects/hit.xml)
+- [Документация Яндекс.Метрика](https://yandex.com/support/metrica/code/counter-initialize.xml)
+- [hit метод](https://yandex.com/support/metrica/objects/hit.xml)
 
 ### `id`
 
-- Required
+- Обязательный
 
 ### `webvisor`
 
